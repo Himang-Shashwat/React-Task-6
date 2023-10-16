@@ -17,20 +17,23 @@ const Contact = () => {
   }, [])
 
   const sendEmail = (e) => {
-    e.preventDefault()
-
+    e.preventDefault();
+  
     emailjs
       .sendForm('service_amfg96b', 'template_snet2ep', form.current, 'LjaEuKMJr6qvCUSl2')
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          alert('Message successfully sent! Reloading the page...');
+          setTimeout(() => {
+            window.location.reload();
+          }, 1000);
         },
         () => {
-          alert('Failed to send the message, please try again')
+          alert('Failed to send the message, please try again');
         }
-      )
+      );
   }
+  
 
   return (
     <>
