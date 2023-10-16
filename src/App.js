@@ -8,12 +8,11 @@ import './App.scss'
 function App() {
   return (
     <>
+    <Layout />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Route>
+        <Route path="/React-Task-6" element={<Home />}/>
+          <Route path="/React-Task-6/about" element={<About />} />
+          <Route path="/React-Task-6/contact" element={<Contact />} />
       </Routes>
     </>
   )
