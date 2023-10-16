@@ -1,6 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/logo-h.png'
+import LogoH from '../../assets/images/logo-h.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -25,7 +25,7 @@ const Sidebar = () => {
         className="logo"
         to="/"
         onClick={() => setShowNav(false)}>
-        <img src={LogoS} alt="Logo" />
+        <img src={LogoH} alt="Logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="Himang" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
