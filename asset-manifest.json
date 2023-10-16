@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/React-Task-6/static/css/main.c14c5e0e.css",
-    "main.js": "/React-Task-6/static/js/main.2d4fa815.js",
+    "main.css": "/React-Task-6/static/css/main.af6a95fd.css",
+    "main.js": "/React-Task-6/static/js/main.1d9cfb7d.js",
     "static/js/787.67b99310.chunk.js": "/React-Task-6/static/js/787.67b99310.chunk.js",
+    "static/media/My_Photo.png": "/React-Task-6/static/media/My_Photo.996c5532dbb2049853dc.png",
     "static/media/logo-h.png": "/React-Task-6/static/media/logo-h.6a330f309099624587ee.png",
     "static/media/helvetica-neu.ttf": "/React-Task-6/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff": "/React-Task-6/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
@@ -10,12 +11,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/React-Task-6/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/React-Task-6/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/React-Task-6/index.html",
-    "main.c14c5e0e.css.map": "/React-Task-6/static/css/main.c14c5e0e.css.map",
-    "main.2d4fa815.js.map": "/React-Task-6/static/js/main.2d4fa815.js.map",
+    "main.af6a95fd.css.map": "/React-Task-6/static/css/main.af6a95fd.css.map",
+    "main.1d9cfb7d.js.map": "/React-Task-6/static/js/main.1d9cfb7d.js.map",
     "787.67b99310.chunk.js.map": "/React-Task-6/static/js/787.67b99310.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c14c5e0e.css",
-    "static/js/main.2d4fa815.js"
+    "static/css/main.af6a95fd.css",
+    "static/js/main.1d9cfb7d.js"
   ]
 }
